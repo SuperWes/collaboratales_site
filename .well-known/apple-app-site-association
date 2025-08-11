@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["22F5SAT2Z4.com.superwes.collaboratales"],
+        "components": [
+          { "/": "/story/*/node/*" },
+          { "/": "/story/*" },
+          { "/": "/u/*/*" },
+          { "/": "/u/*" }
+        ]
+      }
+    ]
+  }
+}
