@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Collaboratales — Collaborate on stories together</title>
+  <meta name="description" content="Collaboratales is the easiest way to create and explore branching stories with friends and the world. Coming soon to iOS and Android." />
+  <meta property="og:title" content="Collaboratales — Collaborate on stories together" />
+  <meta property="og:description" content="Create, branch, and explore living stories. Coming soon to iOS and Android." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.collaboratales.com" />
+  <meta name="theme-color" content="#6C5CE7" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <span class="logo-mark">✶</span>
+        <span class="logo-text">Collaboratales</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#cta">Get the app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Write worlds together.</h1>
+          <p class="subhead">Collaboratales makes it fun and effortless to create branching, living stories—together. Build on each other’s ideas, explore new paths, and watch your universe grow.</p>
+          <div class="cta-row" id="cta">
+            <a class="badge coming-soon" href="#">Coming soon on iOS</a>
+            <a class="badge coming-soon" href="#">Coming soon on Android</a>
+          </div>
+          <p class="cta-note">Sign up in the app to follow your favorite stories, get notified on updates, and collaborate in real time.</p>
+        </div>
+        <div class="hero-art">
+          <div class="device-frame">
+            <div class="screen">
+              <div class="node root">Prologue</div>
+              <div class="node-row">
+                <div class="node">Forest Path</div>
+                <div class="node">Mountain Trail</div>
+              </div>
+              <div class="node-row faint">
+                <div class="node">Hidden Cave</div>
+                <div class="node">Old Watchtower</div>
+              </div>
+            </div>
+          </div>
+          <div class="sparkles">✦ ✧ ✦</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container features-grid">
+        <div class="feature">
+          <div class="icon">🌿</div>
+          <h3>Branching stories</h3>
+          <p>Every page can grow into many. Explore and create paths that twist, turn, and surprise.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🤝</div>
+          <h3>Built for collaboration</h3>
+          <p>Add to any story, riff with friends, and co-author endings. Great ideas grow together.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🔔</div>
+          <h3>Stay in the loop</h3>
+          <p>Follow stories or pages and get notified when new branches appear.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🔗</div>
+          <h3>Deep links</h3>
+          <p>Share a link straight to any page. Your friends jump right into the story.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🛡️</div>
+          <h3>Community moderation</h3>
+          <p>Thoughtful tools help keep stories welcoming and safe for everyone.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">⭐</div>
+          <h3>Favorites & bookmarks</h3>
+          <p>Collect the stories you love and quickly return to where you left off.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="how" id="how-it-works">
+      <div class="container how-grid">
+        <div class="how-step">
+          <div class="step">1</div>
+          <h4>Start a story</h4>
+          <p>Write a spark—just a paragraph will do. Give it a title and publish.</p>
+        </div>
+        <div class="how-step">
+          <div class="step">2</div>
+          <h4>Branch together</h4>
+          <p>Friends (and fans) add pages, expand scenes, and create new routes forward.</p>
+        </div>
+        <div class="how-step">
+          <div class="step">3</div>
+          <h4>Explore endlessly</h4>
+          <p>Swipe through paths, favorite the greats, and share direct links to your favorite moments.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-wide">
+      <div class="container">
+        <h2>Coming soon to iOS and Android</h2>
+        <p>We’re putting the final touches on the app. Be ready to build incredible worlds together.</p>
+        <div class="cta-row">
+          <a class="badge coming-soon" href="#">Get it on the App Store (soon)</a>
+          <a class="badge coming-soon" href="#">Get it on Google Play (soon)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand small">
+        <span class="logo-mark">✶</span>
+        <span class="logo-text">Collaboratales</span>
+      </div>
+      <div class="foot-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#cta">Get the app</a>
+      </div>
+      <div class="foot-note">© <span id="year"></span> Collaboratales</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById(year).textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
