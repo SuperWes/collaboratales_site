@@ -45,14 +45,49 @@
         <div class="hero-art">
           <div class="device-frame">
             <div class="screen">
-              <div class="node root">Prologue</div>
-              <div class="node-row">
-                <div class="node">Forest Path</div>
-                <div class="node">Mountain Trail</div>
+              <div class="appbar">
+                <div class="appbar-left">
+                  <span class="app-title">Adventure Story</span>
+                  <span class="genre-chip">Fantasy</span>
+                </div>
+                <div class="appbar-actions">
+                  <span class="icon heart" title="Favorite">♥</span>
+                  <span class="icon more" title="More">⋯</span>
+                </div>
               </div>
-              <div class="node-row faint">
-                <div class="node">Hidden Cave</div>
-                <div class="node">Old Watchtower</div>
+
+              <div class="page">
+                <div class="story-card">
+                  <div class="story-text">
+                    Welcome to the Adventure! You stand at a crossroads. Will you take the forest path or the mountain path?
+                  </div>
+                </div>
+
+                <div class="siblings">
+                  <span class="hint">←</span>
+                  <div class="sibling-card selected">
+                    <div class="sibling-title">Forest Path</div>
+                    <div class="dots">
+                      <span class="dot on"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+                  </div>
+                  <div class="sibling-card">
+                    <div class="sibling-title">Mountain Trail</div>
+                    <div class="dots">
+                      <span class="dot on"></span>
+                      <span class="dot on"></span>
+                      <span class="dot"></span>
+                    </div>
+                  </div>
+                  <span class="hint">→</span>
+                </div>
+
+                <div class="fab-stack">
+                  <button class="fab" title="Go to story beginning">⇑</button>
+                  <button class="fab" title="Go to furthest visited">⇓</button>
+                </div>
               </div>
             </div>
           </div>
