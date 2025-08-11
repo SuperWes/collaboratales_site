@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page Not Found — Collaboratales</title>
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <span class="logo-mark">✶</span>
+        <a href="/" class="logo-text" style="text-decoration:none;color:inherit">Collaboratales</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding:72px 0 60px">
+      <div class="container" style="max-width:800px;text-align:center">
+        <h1 style="margin:0 0 8px">You can’t read stories here… yet</h1>
+        <p class="subhead" style="margin:0 auto 18px;max-width:640px">
+          We’re still putting the finishing touches on the web experience. In the meantime,
+          the best way to explore and collaborate on stories is in the app.
+        </p>
+        <div class="cta-row" style="justify-content:center">
+          <a class="badge coming-soon" href="#">Coming soon on iOS</a>
+          <a class="badge coming-soon" href="#">Coming soon on Android</a>
+        </div>
+        <p class="cta-note" style="margin-top:10px">Check back here after launch — deep links will open directly in the app.</p>
+        <div style="margin-top:28px">
+          <a href="/" class="badge" style="background:#1b1f2b;border:1px solid #2b3145;color:#eaf1ff">Return to homepage</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand small">
+        <span class="logo-mark">✶</span>
+        <span class="logo-text">Collaboratales</span>
+      </div>
+      <div class="foot-links"></div>
+      <div class="foot-note">© <span id="year"></span> Collaboratales</div>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear()</script>
+</body>
+</html>
